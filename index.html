@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Form</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box Login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="ip-box">
+                    <input type="email" required placeholder="Enter Your Email">
+                </div>
+                <div class="ip-box">
+                    <input type="password" required placeholder="Enter Your Password">
+                </div>
+                <div class="forget">
+                    <label><input type="checkbox">Remember Me?</label>
+                    <a href="#">Forget Password</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="register">
+                    <p>Don't Have an Account? <a href="#" class="reg-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-box register">
+            <h2>Register</h2>
+            <form action="#">
+                <div class="ip-box">
+                    <input type="text" required placeholder="Enter Your Username">
+                </div>
+                <div class="ip-box">
+                    <input type="email" required placeholder="Enter Your Email">
+                </div>
+                <div class="ip-box">
+                    <input type="password" required placeholder="Enter Your Password">
+                </div>
+                <button type="submit" class="btn">Register</button>
+                <div class="login">
+                    <p>I Already Have a Account! <a href="#" class="log-link">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="JS/script.js"></script>
+</body>
+</html>
